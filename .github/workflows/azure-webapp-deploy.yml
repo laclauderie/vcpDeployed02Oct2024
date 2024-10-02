@@ -28,4 +28,4 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'vcpDeployed02Oct2024Webapp'  # Replace with your app name
-        slot-name: 'production'  # Ensures deployment to production
+        # Remove slot-name to deploy directly to production
